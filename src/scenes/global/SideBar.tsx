@@ -20,7 +20,7 @@ import CalendarTodayOutlinedIcon from "@mui/icons-material/CalendarTodayOutlined
 import HelpOutlinedIcon from "@mui/icons-material/HelpOutlined";
 import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
 import PieChartOutlinedIcon from "@mui/icons-material/PieChartOutlined";
-import TimeLineOutlinedIcon from "@mui/icons-material/TimeLineOutlined";
+import ShowChartOutlinedIcon from "@mui/icons-material/ShowChartOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 
@@ -226,7 +226,7 @@ const SideBar = () => {
               Pie Chart
             </MenuItem>
             <MenuItem
-              icon={<TimeLineOutlinedIcon />}
+              icon={<ShowChartOutlinedIcon />}
               component={<Link to="/line" />}
             >
               Line Chart
